@@ -42,6 +42,7 @@ public class Permutations {
             return ret;
 
         visited = new boolean[nums.length];
+        Arrays.fill(visited, false);
 
         findPermutations(nums, 0, new LinkedList<>());
 
