@@ -26,18 +26,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumPathSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-planning/src/MinimumPathSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LongestCommonSequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-planning/src/LongestCommonSequence.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestPalindromic.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestPalindromic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-planning/src/LongestPalindromic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="36" column="87" lean-forward="false" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JumpGame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/greedy/src/JumpGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-50">
+              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -169,6 +169,8 @@
         <option value="$PROJECT_DIR$/dynamic-planning/src/TargetSum.java" />
         <option value="$PROJECT_DIR$/greedy/src/IsSubsequence.java" />
         <option value="$PROJECT_DIR$/dynamic-planning/src/LongestPalindromic.java" />
+        <option value="$PROJECT_DIR$/greedy/src/JumpEnd.java" />
+        <option value="$PROJECT_DIR$/greedy/src/JumpGame.java" />
       </list>
     </option>
   </component>
@@ -344,22 +346,7 @@
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LongestPalindromic">
-    <configuration default="false" name="IntegerBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="IntegerBreak" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="dynamic-planning" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.JumpGame">
     <configuration default="false" name="PerfectSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="PerfectSquares" />
@@ -417,6 +404,21 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="dynamic-planning" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="JumpGame" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="greedy" />
       <envs />
       <method />
     </configuration>
@@ -653,19 +655,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.IntegerBreak" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PerfectSquares" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TargetSum" />
-      <item index="3" class="java.lang.String" itemvalue="Application.IsSubsequence" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LongestPalindromic" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PerfectSquares" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TargetSum" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IsSubsequence" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LongestPalindromic" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JumpGame" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LongestPalindromic" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IsSubsequence" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TargetSum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PerfectSquares" />
-        <item index="4" class="java.lang.String" itemvalue="Application.IntegerBreak" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JumpGame" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LongestPalindromic" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IsSubsequence" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TargetSum" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PerfectSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -752,14 +754,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/recursion-and-backtracking/src/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dynamic-planning/src/LongestCommonSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -1212,6 +1206,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="87" lean-forward="false" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/src/JumpGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
