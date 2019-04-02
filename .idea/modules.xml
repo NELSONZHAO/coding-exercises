@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/leetcode-exercises.iml" filepath="$PROJECT_DIR$/leetcode-exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/linked-list/linked-list.iml" filepath="$PROJECT_DIR$/linked-list/linked-list.iml" />
       <module fileurl="file://$PROJECT_DIR$/recursion-and-backtracking/recursive-and-.iml" filepath="$PROJECT_DIR$/recursion-and-backtracking/recursive-and-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tree-related/tree-related.iml" filepath="$PROJECT_DIR$/tree-related/tree-related.iml" />
     </modules>
   </component>
 </project>
