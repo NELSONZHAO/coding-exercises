@@ -16,18 +16,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PascalTriangleII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/src/PascalTriangleII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#1076#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree-related/src/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,13 +108,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UniqueBSTII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UniqueBSTII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree-related/src/UniqueBSTII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="e#0#1667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximalSquare.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dynamic-planning/src/MaximalSquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/recursion-and-backtracking/src/LetterCombinations.java" />
         <option value="$PROJECT_DIR$/recursion-and-backtracking/src/RestoreIpAddresses.java" />
         <option value="$PROJECT_DIR$/recursion-and-backtracking/src/Permutations.java" />
         <option value="$PROJECT_DIR$/dynamic-planning/src/LongestCommonSubstring.java" />
@@ -200,6 +199,7 @@
         <option value="$PROJECT_DIR$/tree-related/src/InsertIntoBST.java" />
         <option value="$PROJECT_DIR$/tree-related/src/UniqueBST.java" />
         <option value="$PROJECT_DIR$/tree-related/src/UniqueBSTII.java" />
+        <option value="$PROJECT_DIR$/dynamic-planning/src/MaximalSquare.java" />
       </list>
     </option>
   </component>
@@ -471,22 +471,7 @@
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.UniqueBSTII">
-    <configuration default="false" name="CamelMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CamelMatch" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="array" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MaximalSquare">
     <configuration default="false" name="VideoStitching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="VideoStitching" />
@@ -544,6 +529,21 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="tree-related" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MaximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MaximalSquare" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="dynamic-planning" />
       <envs />
       <method />
     </configuration>
@@ -780,19 +780,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CamelMatch" />
-      <item index="1" class="java.lang.String" itemvalue="Application.VideoStitching" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InsertIntoBST" />
-      <item index="3" class="java.lang.String" itemvalue="Application.UniqueBST" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UniqueBSTII" />
+      <item index="0" class="java.lang.String" itemvalue="Application.VideoStitching" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InsertIntoBST" />
+      <item index="2" class="java.lang.String" itemvalue="Application.UniqueBST" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UniqueBSTII" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MaximalSquare" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UniqueBSTII" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UniqueBST" />
-        <item index="2" class="java.lang.String" itemvalue="Application.InsertIntoBST" />
-        <item index="3" class="java.lang.String" itemvalue="Application.VideoStitching" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CamelMatch" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MaximalSquare" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UniqueBSTII" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UniqueBST" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InsertIntoBST" />
+        <item index="4" class="java.lang.String" itemvalue="Application.VideoStitching" />
       </list>
     </recent_temporary>
   </component>
@@ -879,13 +879,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recursion-and-backtracking/src/LetterCombinations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1297,10 +1290,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree-related/src/UniqueBSTII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="e#0#1667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-planning/src/MaximalSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
