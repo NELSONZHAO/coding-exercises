@@ -60,13 +60,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestArithSeqLength.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestArithSeqLength.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-planning/src/LongestArithSeqLength.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockMaxProfitII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greedy/src/StockMaxProfitII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockMaxProfitIII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/greedy/src/StockMaxProfitIII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,26 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerfectSquares.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-planning/src/PerfectSquares.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UniquePaths.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-planning/src/UniquePaths.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -141,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dynamic-planning/src/LongestCommonSequence.java" />
-        <option value="$PROJECT_DIR$/dynamic-planning/src/UniquePaths.java" />
         <option value="$PROJECT_DIR$/dynamic-planning/src/UniquePathsII.java" />
         <option value="$PROJECT_DIR$/dynamic-planning/src/EditDistance.java" />
         <option value="$PROJECT_DIR$/hash-table/src/HappyNumber.java" />
@@ -192,6 +195,8 @@
         <option value="$PROJECT_DIR$/tree-related/src/MaxAncestorDiff.java" />
         <option value="$PROJECT_DIR$/dynamic-planning/src/LongestIncreasingSubsequence.java" />
         <option value="$PROJECT_DIR$/dynamic-planning/src/LongestArithSeqLength.java" />
+        <option value="$PROJECT_DIR$/greedy/src/StockMaxProfitII.java" />
+        <option value="$PROJECT_DIR$/greedy/src/StockMaxProfitIII.java" />
       </list>
     </option>
   </component>
@@ -463,22 +468,7 @@
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LongestArithSeqLength">
-    <configuration default="false" name="UniqueBSTII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="UniqueBSTII" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="tree-related" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.StockMaxProfitII">
     <configuration default="false" name="MaximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MaximalSquare" />
@@ -536,6 +526,21 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="dynamic-planning" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StockMaxProfitII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="StockMaxProfitII" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="greedy" />
       <envs />
       <method />
     </configuration>
@@ -772,19 +777,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.UniqueBSTII" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MaximalSquare" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MaxAncestorDiff" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LongestArithSeqLength" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LongestIncreasingSubsequence" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MaximalSquare" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MaxAncestorDiff" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LongestArithSeqLength" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LongestIncreasingSubsequence" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StockMaxProfitII" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LongestArithSeqLength" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LongestIncreasingSubsequence" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MaxAncestorDiff" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MaximalSquare" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UniqueBSTII" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StockMaxProfitII" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LongestArithSeqLength" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LongestIncreasingSubsequence" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MaxAncestorDiff" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MaximalSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -871,22 +876,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dynamic-planning/src/LongestCommonSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-planning/src/LongestCommonSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1192,7 +1181,7 @@
         <state relative-caret-position="195">
           <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1202,7 +1191,7 @@
         <state relative-caret-position="105">
           <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
-            <element signature="e#0#1667#0" expanded="true" />
+            <element signature="e#0#1667#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1291,6 +1280,27 @@
           <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/src/StockMaxProfitII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/src/StockMaxProfitIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
