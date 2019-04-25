@@ -16,18 +16,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LongestArithSeqLength.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-planning/src/LongestArithSeqLength.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StockMaxProfitII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/greedy/src/StockMaxProfitII.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,13 +116,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeSortedArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MergeSortedArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/src/MergeSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="355">
               <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindKthLargest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/array/src/FindKthLargest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#2575#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,8 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dynamic-planning/src/MinimumPathSum.java" />
-        <option value="$PROJECT_DIR$/dynamic-planning/src/IntegerBreak.java" />
         <option value="$PROJECT_DIR$/dynamic-planning/src/PerfectSquare.java" />
         <option value="$PROJECT_DIR$/dynamic-planning/src/PerfectSquares.java" />
         <option value="$PROJECT_DIR$/dynamic-planning/src/TargetSum.java" />
@@ -208,6 +206,8 @@
         <option value="$PROJECT_DIR$/array/src/MaxSumTwoNoOverlap.java" />
         <option value="$PROJECT_DIR$/array/src/SortColors.java" />
         <option value="$PROJECT_DIR$/array/src/MergeSortedArray.java" />
+        <option value="$PROJECT_DIR$/array/src/FindKthLargesy.java" />
+        <option value="$PROJECT_DIR$/array/src/FindKthLargest.java" />
       </list>
     </option>
   </component>
@@ -351,22 +351,7 @@
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SortColors">
-    <configuration default="false" name="StockMaxProfitIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="StockMaxProfitIII" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="dynamic-planning" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FindKthLargest">
     <configuration default="false" name="AllCellsDistOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="AllCellsDistOrder" />
@@ -415,6 +400,21 @@
     <configuration default="false" name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="SortColors" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="array" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FindKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="FindKthLargest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -660,19 +660,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StockMaxProfitIII" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AllCellsDistOrder" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TwoCitySchedCost" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MaxSumTwoNoOverlap" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SortColors" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AllCellsDistOrder" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TwoCitySchedCost" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MaxSumTwoNoOverlap" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SortColors" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FindKthLargest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SortColors" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MaxSumTwoNoOverlap" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TwoCitySchedCost" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AllCellsDistOrder" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StockMaxProfitIII" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FindKthLargest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SortColors" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MaxSumTwoNoOverlap" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TwoCitySchedCost" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AllCellsDistOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -759,16 +759,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dynamic-planning/src/ClimbingStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dynamic-planning/src/MinimumPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1194,6 +1184,16 @@
           <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/src/FindKthLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#2575#0" expanded="true" />
           </folding>
         </state>
       </provider>
