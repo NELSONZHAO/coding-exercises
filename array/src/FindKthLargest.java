@@ -7,6 +7,7 @@
  * https://leetcode.com/problems/kth-largest-element-in-an-array/
  */
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 public class FindKthLargest {
 
@@ -97,6 +98,32 @@ public class FindKthLargest {
         return pq.poll();
     }
 
+    // 解法三
+    public int findKthLargest3(int[] nums, int k) {
+        // 思路：找第k大元素等价于找第n-k+1小元素
+        // 最大堆
+        int len = nums.length;
+        if( len == 0 )
+            return 0;
+
+        // 最大堆
+        PriorityQueue<Integer> pq = new PriorityQueue<>(len - k + 1, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o2 - o1;
+            }
+        });
+
+        for( int i = 0; i < len; i++ ) {
+            pq.offer(nums[i]);
+
+            if( pq.size() > len - k + 1 )
+                pq.poll();
+        }
+
+        return pq.poll();
+    }
+
     public static void main(String[] args) {
         // 测试用例
         int[] nums = new int[]{4, 3, 1, 2, 7, 5, 9};
@@ -105,5 +132,6 @@ public class FindKthLargest {
         FindKthLargest solution = new FindKthLargest();
         System.out.println(solution.findKthLargest1(nums, k));
         System.out.println(solution.findKthLargest2(nums, k));
+        System.out.println(solution.findKthLargest3(nums, k));
     }
 }
