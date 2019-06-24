@@ -17,7 +17,7 @@ public class NextLargerNodesInLinkedList {
         if( head == null )
             return new int[]{};
 
-        // 创建结果表（由于不知道链表长度，所以用ArrayList创建
+        // 创建结果表（由于不知道链表长度，所以用ArrayList创建）
         List<Integer> retList = new ArrayList<>();
 
         // 创建栈
