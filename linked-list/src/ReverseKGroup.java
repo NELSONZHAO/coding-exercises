@@ -44,11 +44,11 @@ public class ReverseKGroup {
         ListNode prev = start;
         ListNode curr = prev.next;
 
-        // 记录翻转后的新的头结点
-        ListNode newFirst = end;
+        // 记录返回的结点
+        ListNode connNode = start.next;
 
         while( curr != end ) {
-            ListNode next = curr;
+            ListNode next = curr.next;
 
             curr.next = prev;
             prev = curr;
@@ -56,9 +56,9 @@ public class ReverseKGroup {
         }
 
         start.next = prev;
-        newFirst.next = curr;
+        connNode.next = curr;
 
-        return newFirst;
+        return connNode;
 
     }
 
