@@ -47,10 +47,52 @@ public class SimplifyPath {
         return sb.toString();
     }
 
+    public String simplifyPathII(String path) {
+        // 思路：使用栈空间
+        // 也可以使用栈，但要注意栈中的目录顺序是反的，最终返回时要重新开辟一个栈空间来翻转目录顺序
+        Stack<String> stack = new Stack<>();
+
+        // 遍历元素
+        for( String s : path.split("/") ) {
+            // 无效路径或当前路径
+            if( s.equals("") || s.equals(".") ) {
+                continue;
+            } else if( s.equals("..") ) {
+                // 跳转上一路径
+                if( !stack.empty() ) {
+                    stack.pop();
+                }
+            } else {
+                // 其它情况
+                stack.push(s);
+            }
+        }
+
+        // 重新逆转目录
+        Stack<String> st = new Stack<>();
+
+        while( !stack.empty() ) {
+            st.push(stack.pop());
+        }
+        // 生成有效目录
+        StringBuilder sb = new StringBuilder();
+        sb.append("/");
+
+        while( !st.empty() ) {
+            sb.append(st.pop());
+            if( !st.empty() ) {
+                sb.append("/");
+            }
+        }
+
+        return sb.toString();
+    }
+
     public static void main( String[] args ) {
         // 测试用例
         String path = new String("/home//foo/../machinelearning/./");
         SimplifyPath solution = new SimplifyPath();
         System.out.println(solution.simplifyPath(path));
+        System.out.println(solution.simplifyPathII(path));
     }
 }
