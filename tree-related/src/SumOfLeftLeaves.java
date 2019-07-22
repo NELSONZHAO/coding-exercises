@@ -5,6 +5,7 @@
 /**
  * 404. Sum of Left Leaves
  * https://leetcode.com/problems/sum-of-left-leaves/
+ * 也可以统计右叶子的和
  */
 
 import java.util.*;

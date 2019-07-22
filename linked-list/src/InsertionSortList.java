@@ -43,7 +43,7 @@ public class InsertionSortList {
 
                 // 此时iterNode的下一个结点就是curr元素待插入的位置
                 ListNode partNode = iterNode.next;  // 已排好序剩余部分的头结点
-                ListNode next = curr.next;  // curr一紧搜索完毕，记录未搜索的下一个结点
+                ListNode next = curr.next;  // curr已经搜索完毕，记录未搜索的下一个结点
 
                 // 移动指针
                 iterNode.next = curr;
