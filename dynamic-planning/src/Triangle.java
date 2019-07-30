@@ -34,6 +34,51 @@ public class Triangle {
         return memo[0];
     }
 
+    public String minimumPath(List<List<Integer>> Triangle) {
+        // 思路：动态规划
+        // 需要使用一个链表存储路径数据
+        List<String> res = new ArrayList<>();
+
+        int row = Triangle.size();
+        int[] memo = new int[row];
+
+        for( int i = 0; i < row; i++ ) {
+            memo[i] = Triangle.get(row-1).get(i);
+            res.add(String.valueOf(memo[i]));
+        }
+
+        for( int i = row - 2; i >= 0; i-- ) {
+            List<String> subList = new ArrayList<>();
+            for( int j = 0; j <= i; j++ ) {
+                // 判断大小
+                if( memo[j] < memo[j+1] ) {
+                    // 更新路径
+                    StringBuilder sb = new StringBuilder();
+                    sb.append(Triangle.get(i).get(j));
+                    sb.append("->");
+                    sb.append(res.get(j));
+                    subList.add(sb.toString());
+
+                    memo[j] = memo[j] + Triangle.get(i).get(j);
+                } else {
+                    // 更新路径
+                    StringBuilder sb = new StringBuilder();
+                    sb.append(Triangle.get(i).get(j));
+                    sb.append("->");
+                    sb.append(res.get(j+1));
+                    subList.add(sb.toString());
+
+                    memo[j] = memo[j+1] + Triangle.get(i).get(j);
+                }
+
+            }
+
+            res = subList;
+        }
+
+        return res.get(0);
+    }
+
     public static void main(String[] args) {
         // 测试用例
         List<List<Integer>> list = new ArrayList<>();
@@ -58,5 +103,6 @@ public class Triangle {
 
         Triangle solution = new Triangle();
         System.out.println(solution.minimumTotal(list));
+        System.out.println(solution.minimumPath(list));
     }
 }
