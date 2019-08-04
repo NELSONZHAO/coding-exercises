@@ -51,8 +51,8 @@ public class TargetSum {
 
     public static void main(String[] args){
         // 测试用例
-        int[] nums = new int[]{1, 1, 1, 1, 1};
-        int S = 5;
+        int[] nums = new int[]{1, 0};
+        int S = 1;
 
         TargetSum solution = new TargetSum();
         System.out.println(solution.findTargetSumWays(nums, S));

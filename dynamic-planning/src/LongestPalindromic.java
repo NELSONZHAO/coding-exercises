@@ -14,6 +14,8 @@ public class LongestPalindromic {
         // 状态初始化：f(i, i) = true;
         // 状态转移：f(i, j) = (j == i + 1) ? (s[j] == s[i]) : (f(i+1, j-1) && s[i] == s[j])
         // 注意：由于f(i, j)依赖于f(i+1, j-1)，因此需要自底向上，自左向右地更新
+        // 时间复杂度：O(n2)
+        // 空间复杂度：O(n2)
 
         int len = s.length();
         if( len <= 1 )
