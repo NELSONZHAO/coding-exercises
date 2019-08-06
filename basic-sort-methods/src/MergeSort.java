@@ -15,7 +15,17 @@ public class MergeSort {
         if( n <= 1 )
             return;
 
-        __mergeSort(nums, 0, n-1);
+        // ** 1.递归方法 **
+//        __mergeSort(nums, 0, n-1);
+
+        // ** 2.循环方法 **
+        // 第一层循环遍历窗口大小
+        for( int sz = 1; sz <= n; sz += sz ) {
+            // 第二层循环确定归并部分
+            for( int i = 0; i + sz < n; i += sz + sz ) {
+                __merge(nums, i, i+sz-1, i+sz+sz-1 < n ? i+sz+sz-1 : n-1);
+            }
+        }
     }
 
     private void __mergeSort(int[] nums, int l, int r) {

@@ -22,6 +22,7 @@ public class RestoreIpAddresses {
         if( ip.equals("") )
             return false;
 
+        // 判断合法性
         if( ip.substring(0, 1).equals("0") && ip.length() > 1 )
             return false;
 

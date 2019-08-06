@@ -43,7 +43,7 @@ public class MergeKSortedLists {
 
             // 将node剩余部分继续入队
             if( node.next != null )
-                pq.offer(node);
+                pq.offer(node.next);
         }
 
         return dummyNode.next;

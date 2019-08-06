@@ -45,14 +45,12 @@ public class LetterCombinations {
 
         // 递归过程
         char c = digits.charAt(index);
-        assert c >= '0' && c <= '9' && c != '1';
+        assert( c >= '2' && c <= '9' );
         String letters =letterMap[c - '0'];
 
         // 遍历当前字符的所有的字母
         for( int i = 0; i < letters.length(); i++ ) {
-            StringBuilder sb = new StringBuilder(s);
-            sb.append(letters.charAt(i));
-            findCombinations(digits, index + 1, sb.toString());
+            findCombinations(digits, index + 1, s + letters.substring(i, i+1));
         }
 
         return;
