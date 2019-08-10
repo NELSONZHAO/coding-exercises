@@ -26,7 +26,7 @@ public class RangeSumBST {
         }
         // 3. 否则，在左子树搜索[L...root.val) + 在右子树搜索(root.val, R] + root.val
         else {
-            return root.val + rangeSumBST(root.left, L, root.val-1) + rangeSumBST(root.right, root.val-1, R);
+            return root.val + rangeSumBST(root.left, L, root.val-1) + rangeSumBST(root.right, root.val+1, R);
         }
     }
 

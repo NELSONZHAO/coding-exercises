@@ -32,7 +32,7 @@ public class PathSumIII {
         // 判断当前
         int res = 0;
         if( node.val == sum )
-            res += node.val;
+            res += 1;
 
         // 递归
         res += helper(node.left, sum - node.val);

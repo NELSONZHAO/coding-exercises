@@ -60,7 +60,7 @@ public class InversePair {
             } else if( j > r ) {
                 arr[k] = aux[i-l];
                 i++;
-            } else if( aux[i-l] < aux[j-l] ) {
+            } else if( aux[i-l] <= aux[j-l] ) {
                 arr[k] = aux[i-l];
                 i++;
             } else {
@@ -68,6 +68,13 @@ public class InversePair {
                 j++;
                 // 更新逆序对数
                 cnt += (long)mid-i+1;
+//                // 更新重要逆序对
+//                int p = i;
+//                while( p <= mid && aux[p-l] <= 2 * aux[j-l] ) {
+//                    p++;
+//                }
+//
+//                cnt += (long)mid-p+1;
             }
         }
 
@@ -76,7 +83,7 @@ public class InversePair {
 
     public static void main( String[] args ) {
         // 测试用例
-        int[] nums = new int[]{1, 2, 3, 0, 4};
+        int[] nums = new int[]{1, 3, 2, 3, 1};
         InversePair solution = new InversePair();
         System.out.println(solution.inversePair(nums));
     }
