@@ -64,7 +64,7 @@ public class FindKthLargest {
         // 此时anchor所在的位置就是其最终的位置，其索引为j，代表anchor为第j+1大元素
         // 如果k - 1 > j，在nums[j+1...r]找第k-j大数
         if( k - 1 > j ) {
-            return helper(nums, j+1, r, k);
+            return helper(nums, j+1, r, k-j-1);
         } else if( k - 1 < j ) { // 否则在nums[l...j-1]找第k大数
             return helper(nums, l, j-1, k);
         } else {
